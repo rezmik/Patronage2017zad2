@@ -1,0 +1,49 @@
+body {
+  background-color: #efefef;
+  font-family: 'Raleway', sans-serif;
+}
+
+#score-1,
+#score-2,
+#score-3 {
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #eee;
+  text-align: center;
+  border-style: groove;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.up,
+.down,
+.get,
+.set,
+.reset,
+#up1 {
+  background-color: #a4d859;
+  padding: 5px 20px;
+  border-style: none;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: bold;
+  margin: 3px;
+}
+
+.up:hover,
+.down:hover,
+.get:hover,
+.set:hover,
+.reset:hover {
+  background-color: #93c748;
+}
+
+.value {
+  padding: 8px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+}
