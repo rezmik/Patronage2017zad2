@@ -1,11 +1,9 @@
 body {
-  background-color: #efefef;
+  background-color: #eeefff;
   font-family: 'Raleway', sans-serif;
 }
 
-#score-1,
-#score-2,
-#score-3 {
+.divView {
   width: 700px;
   margin-right: auto;
   margin-left: auto;
@@ -21,8 +19,7 @@ body {
 .down,
 .get,
 .set,
-.reset,
-#up1 {
+.reset {
   background-color: #a4d859;
   padding: 5px 20px;
   border-style: none;
@@ -46,4 +43,21 @@ body {
   border-style: solid;
   border-width: 1px;
   border-color: #ddd;
+}
+
+.addBtn {
+  display: block;
+  padding: 15px;
+  background-color: #a4d859;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  border-style: none;
+  border-radius: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.addBtn:hover {
+  background-color: #93c748;
 }
