@@ -3,6 +3,15 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+h1 {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.newHeader {
+  padding-left: 114px;
+}
+
 .divView {
   width: 700px;
   margin-right: auto;
@@ -60,4 +69,30 @@ body {
 
 .addBtn:hover {
   background-color: #93c748;
+}
+
+.deleteBtn {
+  background-color: #d94348;
+  float:right;
+  padding: 5px 20px;
+  border-style: none;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: bold;
+  margin: 3px;
+}
+
+.deleteBtn:hover {
+  background-color: #c83237;
+}
+
+@keyframes countAnimation {
+  0% { font-size: 32px; }
+  50% { font-size: 0px; }
+  100% { font-size: 32px; }
+}
+
+.animacja {
+  animation: countAnimation 0.5s infinite;
+  animation-timing-function: ease-out;
 }
